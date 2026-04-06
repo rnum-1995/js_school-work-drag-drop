@@ -2,8 +2,8 @@
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'todo');
 define('DB_USER', 'root');
-// define('DB_PASS',''); // xampp
-define('DB_PASS', 'root'); // mamp
+define('DB_PASS', ''); // xampp
+// define('DB_PASS', 'root'); // mamp
 
 function db_connect()
 {
